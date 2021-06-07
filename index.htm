@@ -9,122 +9,14 @@
 
   <!-- normalize css -->
   <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+  <link rel="stylesheet" href="styles.css">
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
 
-  <style>
-    html {
-      background-color: white;
-      font-family: 'Montserrat', sans-serif;
-    }
-
-    body {}
-
-    #wrapper {
-      display: flex;
-
-      justify-content: center;
-    }
-
-    #page {
-      padding: 3rem;
-      background-color: hsl(0, 8%, 98%);
-      padding-top: 3rem;
-      width: 100ch;
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-    }
-
-    #content {
-      width: 100%;
-      display: flex;
-    }
-
-    #section1,
-    #section2 {
-      width: 40ch;
-    }
-
-    #spacer {
-      width: 5ch;
-    }
-
-    p {
-      line-height: 1.5rem;
-    }
-
-    #showMob {
-      display: none;
-    }
-
-    #headline {
-      padding: 2rem 0 4rem 0;
-    }
-
-    h1 {
-      margin: 0px;
-      font-size: 4rem;
-      font-weight: 200;
-    }
-
-    h2 {
-      font-weight: 400;
-      padding-top: 1rem;
-      padding-bottom: .25rem;
-    }
-
-    h3 {
-      margin: 0px;
-      font-size: 1rem;
-      font-weight: 500;
-    }
-
-    #sub {
-      font-size: .8rem;
-      font-style: italic;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      line-height: 1.5rem;
-    }
-
-    li {
-      padding-left: 1.3rem;
-    }
-
-    li:before {
-      content: "–";
-      display: inline-block;
-      margin-left: -1.3rem;
-      /* same as padding-left set on li */
-      width: 1.3rem;
-      /* same as padding-left set on li */
-    }
-
-
-
-    @media screen and (max-width: 900px) {
-      body {
-        width: 100%;
-      }
-
-      #content {
-        flex-direction: column;
-      }
-
-      #showMob {
-        display: block;
-      }
-    }
-  </style>
+  <script defer src="scripts.js"></script>
 </head>
 
 <body>
@@ -132,86 +24,95 @@
   <div id="wrapper">
     <div id="page">
       <div id="headline">
-        <h1>Caleb Wiseman <br id="showMob"> Taylor Moore</h1>
+        <h1>Caleb Wiseman <br id="showMob">Taylor Moore</h1>
       </div>
       <div id="content">
-        <div id="section1">
+        <div id="one_exp">
           <h2>EXPERIENCE</h2>
           <h3>Email and Frontend Developer</h3>
           <span id="sub">Rauxa (June 2018 – present)</span>
           <ul>
-            <li>Promotional transactional email development</li>
-            <li>Triggered email campaigns</li>
-            <li>Landing pages</li>
-            <li>Custome javascript solutions</li>
+            <li>Owned email development for Alaska&nbsp;Airlines</li>
+            <li>Triggered, promotional, and transactional&nbsp;campaigns</li>
+            <li>Email accessability audit and&nbsp;implementation</li>
+            <li>Landing pages and banner ad&nbsp;creation</li>
+            <li>Lazer-focused project management and client&nbsp;communication</li>
+            <li>Custom javascript solutions and efficiency&nbsp;maker</li>
           </ul>
           <h3>Email Developer, Designer</h3>
           <span id="sub">Drexler (Sept 2014 – June 2018)</span>
           <ul>
-            <li>Coded 6,000+ emails for Crate & Barrel, CB2, Lands’ End, Chewy, and more </li>
-            <li>Average of 5 emails a day, with design and code revisions, on tight deadlines</li>
-            <li>Owned and improved upon agency practices of email development, design and deliverability</li>
-            <li>Additionally handled digital and print design, branding and copywriting</li>
+            <li>Coded 6,000+ emails for Crate & Barrel, CB2, Lands’ End, Chewy, and&nbsp;more </li>
+            <li>Average of 5 emails a day, with design and code revisions, on tight&nbsp;deadlines</li>
+            <li>Owned and improved upon agency practices of email development, design and&nbsp;deliverability</li>
+            <li>Digital and print design, print prep, branding and&nbsp;copywriting</li>
           </ul>
           <h3>Graphic Designer</h3>
           <span id="sub">DesignByFive (Sept 2013 – June 2014)</span>
           <ul>
-            <li>Design exclusively for Deutsche Asset Wealth Management and Deutsche Bank</li>
-            <li>Photo retouching, ads, posters, Flash banners, brochures and booklets</li>
-            <li>Print production and assembly of various materials</li>
+            <li>Design exclusively for Deutsche Asset Wealth Management and Deutsche&nbsp;Bank</li>
+            <li>Photo retouching, ads, posters, Flash banners, brochures and&nbsp;booklets</li>
+            <li>Print production and assembly of various&nbsp;materials</li>
           </ul>
           <h3>Graphic Design Specialist</h3>
           <span id="sub">Stanley Black & Decker (Aug – Sept 2013)</span>
           <ul>
-            <li>Designed sales flyers, posters, product packaging, store displays & logos</li>
-            <li>Design and project management, quality control</li>
+            <li>Designed sales flyers, posters, product packaging, store displays,&nbsp;logos</li>
+            <li>Design and project management, quality&nbsp;control</li>
           </ul>
           <h3>Freelance Graphic Designer</h3>
           <span id="sub">Various Clients (Jan 2009 – Aug 2011)</span>
           <ul>
-            <li>Freelance design, including logos, tote bags, ads, social media pieces and tri-fold brochures</li>
+            <li>Freelance design, including logos, tote bags, ads, social media pieces and tri-fold&nbsp;brochures</li>
           </ul>
           <h3>Junior Graphic Designer</h3>
           <span id="sub">DesignByFive (Oct 2007– Jan 2009) </span>
           <ul>
-            <li>Marketing, design and layout for both print and digital media</li>
-            <li>Quality control, anything they asked me to do</li>
+            <li>Marketing, design and layout for both print and digital&nbsp;media</li>
+            <li>Quality control, anything they asked me to&nbsp;do</li>
           </ul>
         </div>
         <div id="spacer"></div>
-        <div id="section2">
-          <h2>SKILLS</h2>
-          <ul>
-            <li>Photoshop, InDesign, Illustrator, Sketch</li>
-            <li>Responsys, Salesforce Marketing Cloud, Mailchimp, Campaign Monitor</li>
-            <li>Litmus, Email on Acid</li>
-            <li>WordPress, Shopify, Commonspot, Subdreamer</li>
-            <li>JIRA, Workfront, Basecamp, Trello</li>
-            <li>VSCode, Coda, SublimeText, Dreamweaver</li>
-            <li>Logic Pro, Adobe Audition</li>
-            <li>Email development best practices</li>
-            <li>Graphic Design and Layout, Print preparation</li>
-            <li>HTML, CSS, Sass, Javascript, Ampscript, RPL/BIF</li>
-            <li>Photo retouching and masking</li>
-            <li>Copywriting</li>
-          </ul>
-          <h2>EDUCATION</h2>
-          <p>Bachelor of Fine Arts in Journalism, Minor in Art with emphasis in Graphic Design at The University of
-            Mississippi (Ole Miss), Graduation in May of 2007.</p>
-          <h2>CLIENTS I HAVE WORKED FOR</h2>
-          <p>
-            Amazon, Microsoft, Verizon, Alaska Airlines, Audible, Crate & Barrel, CB2, Lands End, Chewy, Pizza Boli’s,
-            Black
-            &
-            Decker, DEWALT, Deutsche Bank, Deutsche Bank Alex.Brown, Home Depot, Grainger, Fastenal, Ceremony Coffee
-            Roasters,
-            Charm City Cupcakes, Catholic Relief Services, Vaccinogen, Growth5, Make Tribe and more.
-          </p>
+        <div id="DTcontainerRight">
+          <div id="two_skills">
+            <h2>SKILLS</h2>
+            <ul>
+              <li>HTML, CSS/Sass,&nbsp;Javascript</li>
+              <li>Frameworks: Vue, Node, GreenSock, Nuxt,&nbsp;Storybook</li>
+              <li>Github and Command Line&nbsp;(iTerm)</li>
+              <li>VSCode, Coda, SublimeText,&nbsp;Dreamweaver</li>
+              <li>Responsys, Salesforce Marketing Cloud, Mailchimp, Campaign&nbsp;Monitor</li>
+              <li>Ampscript, RPL/BIF</li>
+              <li>JIRA, Workfront, Basecamp,&nbsp;Trello</li>
+              <li>Photoshop, InDesign, Illustrator,&nbsp;Sketch</li>
+              <li>Photo retouching and&nbsp;masking</li>
+              <li>Litmus, Email on&nbsp;Acid</li>
+              <li>WordPress, Shopify, Commonspot,&nbsp;Subdreamer</li>
+              <li>Email development and accessability best&nbsp;practices</li>
+              <li>Graphic Design for Print and Web, Print&nbsp;preparation</li>
+              <li>Copywriting and&nbsp;storytelling</li>
+              <li>Logic Pro, Adobe&nbsp;Audition</li>
+            </ul>
+          </div>
+          <div id="three_clients" class="clients">
+            <h2>CLIENTS</h2>
+            <p>
+              Amazon, Microsoft, Verizon, Alaska Airlines, Audible, Crate & Barrel, CB2, Vans, Lands End, Chewy,
+              Black & Decker, D<sub>E</sub>WALT, Deutsche Bank, Deutsche Bank Alex.Brown, Home Depot, Grainger,
+              Fastenal,
+              Ceremony Coffee Roasters, Charm City Cupcakes, Catholic Relief Services, Vaccinogen, Growth5, Make Tribe
+              and&nbsp;more.
+            </p>
+          </div>
+          <div id="four_edu" class="edu">
+            <h2>EDUCATION</h2>
+            <p>Bachelor of Fine Arts in Journalism, Minor in Art with emphasis in Graphic Design. The University of
+              Mississippi, Graduation in May of&nbsp;2007.</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
 </body>
 
 </html>

@@ -1,0 +1,182 @@
+/* DESKTOP */
+html {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.show {
+  opacity: 1;
+  transition: all 2s;
+  /* transition-timing-function: ease-in; */
+}
+
+.hide {
+  opacity: 0;
+}
+
+
+#page {
+  padding: 4rem;
+  background-color: hsl(0, 8%, 98%);
+  padding-top: 3rem;
+  width: 100ch;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+#content {
+  width: 100%;
+  display: flex;
+}
+
+#one_exp,
+#two_skills,
+#three_clients,
+#four_edu,
+#DTcontainerRight {
+  width: 40ch;
+}
+
+#two_skills {
+  padding-top:4rem;
+  padding-bottom: 4rem;
+}
+
+#three_clients {
+  padding-bottom: 4rem;
+}
+
+#four_edu {
+  /* padding-top: 4rem; */
+  vertical-align: bottom;
+}
+
+#spacer {
+  width: 8ch;
+}
+
+sub {
+  vertical-align: .20rem;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+#showMob {
+  display: none;
+}
+
+
+#headline {
+  padding: 2rem 0 4rem 0;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 400;
+  padding-top: 1rem;
+  padding-bottom: .25rem;
+}
+
+h3 {
+  margin: 0px;
+  font-size: 1rem;
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+#sub {
+  font-size: .8rem;
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.5rem;
+}
+
+#two_skills>ul {padding-top: 1rem;}
+
+li {
+  padding-left: 1.3rem !important;
+}
+
+/* custom bullet character */
+li:before {
+  content: "–";
+  font-weight: 600;
+  display: inline-block;
+  margin-left: -1.3rem;
+  width: 1.3rem;
+}
+
+
+/* TABLET */
+@media screen and (max-width: 900px) {
+  body {
+    width: 100%;
+  }
+
+  #content {
+    flex-direction: column;
+  }
+
+  #page {
+    padding: 2rem;
+  }
+
+  #one_exp,
+  /* #two_skills, */
+  #three_clients,
+  #four_edu,
+  #DTcontainerRight,
+  #three_clients_mob,
+  #four_edu_mob {
+    width: 60%;
+  }
+
+  #two_skills {order: 1;}
+  #one_exp {order: 2;}
+  #three_clients {display: none;}
+  #four_edu {display: none;}
+  #three_clients_mob {order: 3;}
+  #four_edu_mob {order: 4;}
+
+  #showMob {
+    display: block;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 479px) {
+  #one_exp,
+  #two_skills,
+  #three_clients,
+  #four_edu,
+  #DTcontainerRight,
+  #three_clients_mob,
+  #four_edu_mob {
+    width: 100%;
+  }
+
+  #headline {
+    padding: 1rem 0 2rem 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
