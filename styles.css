@@ -6,7 +6,7 @@ html {
 
 #wrapper {
   display: flex;
-  justify-content: center;
+  justify-content:flex-start;
 }
 
 .show {
@@ -22,7 +22,7 @@ html {
 
 #page {
   padding: 4rem;
-  background-color: hsl(0, 8%, 98%);
+  /* background-color: hsl(0, 8%, 98%); */
   padding-top: 3rem;
   width: 100ch;
   display: flex;
@@ -81,7 +81,7 @@ p {
 h1 {
   margin: 0px;
   font-size: 4rem;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 h2 {
@@ -111,7 +111,7 @@ ul {
 #two_skills>ul {padding-top: 1rem;}
 
 li {
-  padding-left: 1.3rem !important;
+  padding-left: 1.3rem;
 }
 
 /* custom bullet character */
@@ -121,6 +121,10 @@ li:before {
   display: inline-block;
   margin-left: -1.3rem;
   width: 1.3rem;
+}
+
+.sub_li {
+  padding-left: 2.7rem;
 }
 
 

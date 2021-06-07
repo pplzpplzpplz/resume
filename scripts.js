@@ -9,6 +9,20 @@ function handleMobileChange(mediaQuery) {
     const contentDiv = document.getElementById('content');
     contentDiv.insertAdjacentElement('beforeend', fourEdu);
     contentDiv.insertAdjacentElement('beforeend', threeClients);
+
+    //experience fade in
+    const expDiv = document.querySelector('.exp');
+    function obCallBack3(payload) {
+      if (payload[0].isIntersecting) {
+        expDiv.classList.remove('hide');
+        expDiv.classList.add('show');
+      } else {
+        expDiv.classList.remove('show');
+        expDiv.classList.add('hide');
+      }
+    }
+    const ob2 = new IntersectionObserver(obCallBack3);
+    ob2.observe(expDiv);
   }
 }
 mediaQuery.addListener(handleMobileChange);
