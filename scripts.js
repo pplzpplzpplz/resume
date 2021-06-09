@@ -6,9 +6,12 @@ function handleMobileChange(mediaQuery) {
     threeClients.id = 'three_clients_mob';
     const fourEdu = document.getElementById('four_edu');
     fourEdu.id = 'four_edu_mob';
+    const fiveWork = document.getElementById('five_work');
+    fiveWork.id = 'five_work_mob'
     const contentDiv = document.getElementById('content');
     contentDiv.insertAdjacentElement('beforeend', fourEdu);
     contentDiv.insertAdjacentElement('beforeend', threeClients);
+    contentDiv.insertAdjacentElement('beforeend', fiveWork);
 
     //experience fade in
     const expDiv = document.querySelector('.exp');
@@ -29,6 +32,7 @@ mediaQuery.addListener(handleMobileChange);
 handleMobileChange(mediaQuery);
 
 // scroll animation
+
 // clients
 const clientsDiv = document.querySelector('.clients');
 function obCallBack1(payload) {
@@ -56,3 +60,17 @@ function obCallBack2(payload) {
 }
 const ob2 = new IntersectionObserver(obCallBack2);
 ob2.observe(eduDiv);
+
+// work
+const workDiv = document.querySelector('.work');
+function obCallBack3(payload) {
+  if (payload[0].isIntersecting) {
+    workDiv.classList.remove('hide');
+    workDiv.classList.add('show');
+  } else {
+    workDiv.classList.remove('show');
+    workDiv.classList.add('hide');
+  }
+}
+const ob3 = new IntersectionObserver(obCallBack3);
+ob3.observe(workDiv);

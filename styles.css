@@ -4,6 +4,11 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  opacity: 0;
+  transition: opacity 3s;
+}
+
 #wrapper {
   display: flex;
   justify-content:flex-start;
@@ -11,18 +16,24 @@ html {
 
 .show {
   opacity: 1;
-  transition: all 2s;
-  /* transition-timing-function: ease-in; */
+  transition: opacity 2s;
 }
 
 .hide {
   opacity: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: 600;
+}
 
 #page {
   padding: 4rem;
-  /* background-color: hsl(0, 8%, 98%); */
   padding-top: 3rem;
   width: 100ch;
   display: flex;
@@ -39,22 +50,21 @@ html {
 #two_skills,
 #three_clients,
 #four_edu,
-#DTcontainerRight {
+#DTcontainerRight,
+#five_work {
   width: 40ch;
 }
 
 #two_skills {
-  padding-top:4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 #three_clients {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 #four_edu {
-  /* padding-top: 4rem; */
-  vertical-align: bottom;
+  padding-bottom: 2rem;
 }
 
 #spacer {
@@ -114,7 +124,7 @@ li {
   padding-left: 1.3rem;
 }
 
-/* custom bullet character */
+/* custom list char */
 li:before {
   content: "–";
   font-weight: 600;
@@ -127,6 +137,14 @@ li:before {
   padding-left: 2.7rem;
 }
 
+/* custom list char for links */
+.link_li:before {
+  content: "⇒";
+  font-weight: 300;
+  display: inline-block;
+  margin-left: -1.3rem;
+  width: 1.3rem;
+}
 
 /* TABLET */
 @media screen and (max-width: 900px) {
@@ -142,13 +160,17 @@ li:before {
     padding: 2rem;
   }
 
+  #two_skills {
+    padding-bottom: 1rem;
+  }
+
   #one_exp,
-  /* #two_skills, */
   #three_clients,
   #four_edu,
   #DTcontainerRight,
   #three_clients_mob,
-  #four_edu_mob {
+  #four_edu_mob,
+  #five_work_mob {
     width: 60%;
   }
 
@@ -158,6 +180,7 @@ li:before {
   #four_edu {display: none;}
   #three_clients_mob {order: 3;}
   #four_edu_mob {order: 4;}
+  #five_work_mob {order: 5;}
 
   #showMob {
     display: block;
@@ -172,9 +195,14 @@ li:before {
   #four_edu,
   #DTcontainerRight,
   #three_clients_mob,
-  #four_edu_mob {
+  #four_edu_mob,
+  #five_work_mob {
     width: 100%;
   }
+
+  #two_skills {
+    padding-bottom: 1rem;
+  }  
 
   #headline {
     padding: 1rem 0 2rem 0;
