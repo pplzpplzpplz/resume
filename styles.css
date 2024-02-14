@@ -2,6 +2,7 @@
 html {
   background-color: white;
   font-family: 'Montserrat', sans-serif;
+  /* font-family: "Syne", sans-serif; */
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 
 #wrapper {
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
 }
 
 .show {
@@ -90,14 +91,22 @@ p {
 
 h1 {
   margin: 0px;
-  font-size: 4rem;
-  font-weight: 100;
+  font-size: 5rem;
+  line-height: 90%;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h2 {
-  font-weight: 400;
+  font-size: 2rem;
   padding-top: 1rem;
   padding-bottom: .25rem;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h3 {
@@ -118,7 +127,9 @@ ul {
   line-height: 1.5rem;
 }
 
-#two_skills>ul {padding-top: 1rem;}
+#two_skills>ul {
+  padding-top: 1rem;
+}
 
 li {
   padding-left: 1.3rem;
@@ -174,13 +185,33 @@ li:before {
     width: 60%;
   }
 
-  #two_skills {order: 1;}
-  #one_exp {order: 2;}
-  #three_clients {display: none;}
-  #four_edu {display: none;}
-  #three_clients_mob {order: 3;}
-  #four_edu_mob {order: 4;}
-  #five_work_mob {order: 5;}
+  #two_skills {
+    order: 1;
+  }
+
+  #one_exp {
+    order: 2;
+  }
+
+  #three_clients {
+    display: none;
+  }
+
+  #four_edu {
+    display: none;
+  }
+
+  #three_clients_mob {
+    order: 3;
+  }
+
+  #four_edu_mob {
+    order: 4;
+  }
+
+  #five_work_mob {
+    order: 5;
+  }
 
   #showMob {
     display: block;
@@ -189,6 +220,7 @@ li:before {
 
 /* MOBILE */
 @media screen and (max-width: 479px) {
+
   #one_exp,
   #two_skills,
   #three_clients,
@@ -202,7 +234,7 @@ li:before {
 
   #two_skills {
     padding-bottom: 1rem;
-  }  
+  }
 
   #headline {
     padding: 1rem 0 2rem 0;
