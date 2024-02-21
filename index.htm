@@ -23,6 +23,7 @@
 
   <!-- javascript -->
   <!-- <script defer src="scripts.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 </head>
 
 <body onload="document.body.style.opacity='1'"></body>
@@ -43,13 +44,37 @@
         <h3>Associate Director, Template Development</h3>
         <span id="sub">Audible (March 2022 - April 2024)</span>
         <ul>
-          <li>Developed and integrated 'Fusion' HTML Template Suite within Sonar</li>
-          <li>Converted raw html/css into Sonar <br>templates using Handlebars and JSON</li>
-          <li>Managed and directed partner developers at FKA</li>
-          <li>Maintined support channel for Asia Pacific Audible regions</li>
-          <li>Global Transaction email documentation</li>
-          <li>Brazil marketplace launch</li>
-          <li>Accessibility investigations</li>
+          Email Development & Strategy
+          <li>Led the implementation of email components with contracting agency, ensuring alignment on technical
+            approaches and streamlining code for future scalability.</li>
+          <li>Coordinated task delegation and collaborated with team members to leverage individual strengths.</li>
+          <li>Utilized Sonar for implementation and conducted thorough testing using QA tools.</li><br>
+          Technical Tooling & Access Management
+          <li>Obtained access to Sonar SSH Server, enabling streamlined template management.</li>
+          <li>Developed custom shell script for automatic file extension addition, enhancing efficiency in VSCode.</li>
+          <li>Recognized potential for custom tooling to troubleshoot and make edits across multiple templates.</li><br>
+          UX Improvement & Localization
+          <li>Improved user experience for tablet users by resolving link redirection issue.</li>
+          <li>Implemented Portuguese translations for Brazil marketplace, contributing to revenue growth projections.
+          </li><br>
+          Global Support & Documentation
+          <li>Established bi-weekly Office Hours for global support and collaboration.</li>
+          <li>Provided assistance on various technical issues and acquired missing translations across marketplaces.
+          </li>
+          <li>Developed in-depth documentation and guidelines for Fusion template suite.</li><br>
+          Transactional Email Standardization
+          <li>Created plan to streamline global transactional emails and initiated documentation for tracking templates
+            across marketplaces.</li><br>
+          Language Localization & Revenue Impact
+          <li>Integrated language preference translations into triggered emails, foreseeing revenue increase.</li><br>
+          Onboarding & Collaboration
+          <li>Successfully onboarded and collaborated with contractor, refining workflows and fostering ownership and
+            collaboration.</li>
+          <li>Introduced new tools for clearer peer code reviews and empowered team members to share ideas.</li><br>
+          Professional Growth & Skill Acquisition
+          <li>Expanded support beyond NA region, broadening organizational understanding.</li>
+          <li>Acquired command line basics and shell scripting skills for automation and customization.</li>
+          <li>Aiming to continue developing tools to empower teams and enhance productivity.</li>
         </ul>
         <h3>Email and Frontend Developer</h3>
         <span id="sub">Rauxa/FKA (June 2018 – March 2022)</span>
@@ -105,6 +130,7 @@
       <div id="DTcontainerRight">
         <div id="two_skills" class="skills">
           <h2>Skills</h2>
+          <h3>Languages</h3>
           <ul>
             <li>Sonar, Handlebars, JSON, API / Data Providers</li>
             <li>HTML, CSS/Sass,&nbsp;Javascript</li>
@@ -163,6 +189,71 @@
     </div>
   </div>
 </div>
+
+<script>
+  function preload() {
+    font = loadFont('fonts/syne_variable.ttf');
+  }
+
+  let prevMouseX = 0;
+  let prevMouseY = 0;
+
+  function setup() {
+    createCanvas(windowWidth, windowHeight, WEBGL);
+    frameRate(25);
+    blendMode(SUBTRACT);
+
+    // FONT
+    textFont(font);
+    textAlign(CENTER, CENTER);
+    textSize(200);
+  }
+
+
+
+
+
+  function draw() {
+    background(255);
+    noStroke();
+
+    fill(255, 0, 0, 250);
+    text('caleb', 0, 0);
+    fill(0, 255, 0, 250);
+    text('caleb', 0, 0);
+    fill(0, 0, 255, 250);
+    text('caleb', 0, 0);
+
+    // RED
+    fill(255, 0, 0, 250);
+    circle(convertToWebGLX(mouseX), convertToWebGLY(mouseY), 50);
+
+    // GREEN
+    fill(0, 255, 0, 250);
+    circle(convertToWebGLX(prevMouseX), convertToWebGLY(prevMouseY), 50);
+
+    // BLUE
+    fill(0, 0, 255, 250);
+    circle(convertToWebGLX(pmouseX), convertToWebGLY(pmouseY), 50);
+
+
+    prevMouseX = pmouseX;
+    prevMouseY = pmouseY;
+  }
+
+  // Function to convert mouseX coordinate to WebGL coordinate
+  function convertToWebGLX(x) {
+    return map(x, 0, width, -width / 2, width / 2);
+  }
+
+  // Function to convert mouseY coordinate to WebGL coordinate
+  function convertToWebGLY(y) {
+    return map(y, 0, height, -height / 2, height / 2);
+  }
+
+</script>
+
+
 </body>
 
 </html>
