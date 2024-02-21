@@ -23,7 +23,6 @@
 
   <!-- javascript -->
   <!-- <script defer src="scripts.js"></script> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 </head>
 
 <body onload="document.body.style.opacity='1'"></body>
@@ -189,71 +188,6 @@
     </div>
   </div>
 </div>
-
-<script>
-  function preload() {
-    font = loadFont('fonts/syne_variable.ttf');
-  }
-
-  let prevMouseX = 0;
-  let prevMouseY = 0;
-
-  function setup() {
-    createCanvas(windowWidth, windowHeight, WEBGL);
-    frameRate(25);
-    blendMode(SUBTRACT);
-
-    // FONT
-    textFont(font);
-    textAlign(CENTER, CENTER);
-    textSize(200);
-  }
-
-
-
-
-
-  function draw() {
-    background(255);
-    noStroke();
-
-    fill(255, 0, 0, 250);
-    text('caleb', 0, 0);
-    fill(0, 255, 0, 250);
-    text('caleb', 0, 0);
-    fill(0, 0, 255, 250);
-    text('caleb', 0, 0);
-
-    // RED
-    fill(255, 0, 0, 250);
-    circle(convertToWebGLX(mouseX), convertToWebGLY(mouseY), 50);
-
-    // GREEN
-    fill(0, 255, 0, 250);
-    circle(convertToWebGLX(prevMouseX), convertToWebGLY(prevMouseY), 50);
-
-    // BLUE
-    fill(0, 0, 255, 250);
-    circle(convertToWebGLX(pmouseX), convertToWebGLY(pmouseY), 50);
-
-
-    prevMouseX = pmouseX;
-    prevMouseY = pmouseY;
-  }
-
-  // Function to convert mouseX coordinate to WebGL coordinate
-  function convertToWebGLX(x) {
-    return map(x, 0, width, -width / 2, width / 2);
-  }
-
-  // Function to convert mouseY coordinate to WebGL coordinate
-  function convertToWebGLY(y) {
-    return map(y, 0, height, -height / 2, height / 2);
-  }
-
-</script>
-
-
 </body>
 
 </html>
