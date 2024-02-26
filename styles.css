@@ -34,9 +34,8 @@ a:hover {
 }
 
 #page {
-  padding: 4rem;
-  padding-top: 3rem;
-  width: 100ch;
+  padding: 6rem;
+  /* width: 100ch; */
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -45,15 +44,18 @@ a:hover {
 #content {
   width: 100%;
   display: flex;
+  font-size: 15px;
+  line-height: 1rem;
 }
 
-#one_exp,
-#two_skills,
-#three_clients,
-#four_edu,
-#DTcontainerRight,
-#five_work {
-  width: 40ch;
+#one_exp {
+  width: 65%;
+}
+
+
+#DTcontainerRight {
+  width: 35%;
+  padding-left: 8rem;
 }
 
 #two_skills {
@@ -64,7 +66,7 @@ a:hover {
   padding-bottom: 2rem;
 }
 
-#four_edu {
+#four_edu, #five_work {
   padding-bottom: 2rem;
 }
 
@@ -86,7 +88,13 @@ p {
 
 
 #headline {
-  padding: 2rem 0 4rem 0;
+  padding: 0 0 4rem 0;
+}
+
+
+#headline svg {
+  vertical-align: middle;
+
 }
 
 h1 {
@@ -101,7 +109,8 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  padding-top: 1rem;
+  margin: 0;
+  /* padding-top: 1rem; */
   padding-bottom: .25rem;
   font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
@@ -128,7 +137,7 @@ ul {
 }
 
 #two_skills>ul {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
 }
 
 li {
