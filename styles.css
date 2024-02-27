@@ -45,7 +45,7 @@ a:hover {
   width: 100%;
   display: flex;
   font-size: 15px;
-  line-height: 1rem;
+  line-height: auto;
 }
 
 #one_exp {
@@ -56,18 +56,45 @@ a:hover {
 #DTcontainerRight {
   width: 35%;
   padding-left: 8rem;
+  /* padding-top: 3rem; */
 }
 
 #two_skills {
-  padding-bottom: 2rem;
+  display: block;
 }
 
-#three_clients {
-  padding-bottom: 2rem;
+#two_skills div {
+  display: inline;
 }
 
-#four_edu, #five_work {
-  padding-bottom: 2rem;
+/* #two_skills div {
+  padding-top:400px;
+} */
+
+#two_skills div div div {
+  border-radius: 5px;
+  /* border: 1px solid #000; */
+  display: inline-block;
+  margin: .5rem .5rem 0rem 0rem;
+  padding: .3rem;
+}
+
+#langs div {
+  background-color: #e8e8e8;
+}
+
+#tools div {
+  /* background-color: #c6c6c6; */
+  background-color: #e8e8e8;
+
+}
+
+#platforms div {
+  background-color: #e8e8e8;
+}
+
+#two_skills, #three_clients, #four_edu, #five_work, #about {
+  padding-bottom: 2.25rem;
 }
 
 #spacer {
@@ -79,7 +106,9 @@ sub {
 }
 
 p {
-  line-height: 1.5rem;
+  line-height: 1.5;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 #showMob {
@@ -88,18 +117,45 @@ p {
 
 
 #headline {
-  padding: 0 0 4rem 0;
+  /* text-align: center; */
+  padding: 0 0 6rem 0;
 }
 
+/* #headline h2 {
+  font-size: 2.5rem;
+  padding-top: 4rem;
+} */
 
-#headline svg {
+#thx p {
+  line-height: 2;
+}
+
+#thx div div{
+  padding-bottom: .75rem;
+}
+
+svg {
   vertical-align: middle;
+}
 
+#svg_e {
+  position: relative;
+  top: -1px;
+}
+
+#svg_p {
+  position: relative;
+  top: -2px;
+}
+
+#svg_l {
+  position: relative;
+  top: -2px;
 }
 
 h1 {
   margin: 0px;
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 90%;
   font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
@@ -111,7 +167,7 @@ h2 {
   font-size: 2rem;
   margin: 0;
   /* padding-top: 1rem; */
-  padding-bottom: .25rem;
+  padding-bottom: 1rem;
   font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
