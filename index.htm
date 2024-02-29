@@ -15,6 +15,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+  <!-- js -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 </head>
 
 <body onload="document.body.style.opacity='1'">
@@ -108,7 +111,7 @@
           </div>
         <div id="about">
           <h2>About</h2>
-          <p>I'm a creative and passionate individual with an eccentric spirit, driven by a love for people, good design, and problem solving. My strong work ethic, people skills, and sense of accountability are big points of pride, and I find joy in bringing laughter to others. Beyond the workplace, I immerse myself in the arts, both as a patron and a creator.</p>
+          <p>I'm a creative and passionate individual with an eccentric spirit, driven by a love for people, good design, and problem solving. My strong work ethic, people skills, and sense of accountability are big points of pride, and I find joy in bringing laughter to others. Beyond the workplace, I immerse myself in the arts, both as a patron and a&nbsp;creator.</p>
         </div>
         <div id="connect">
           <h2>Connect</h2>
@@ -147,7 +150,11 @@
   function copyEmail() {
     var copyText = "moore.caleb@gmail.com";
     navigator.clipboard.writeText(copyText);
-    alert("Copied the text: " + copyText);
+    // alert("Copied the text: " + copyText);
+    swal({
+      text: "Copied the text: " + copyText,
+      icon: "success",
+    });
   }
   </script>
 </body>
