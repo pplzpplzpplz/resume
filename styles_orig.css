@@ -1,0 +1,310 @@
+/* DESKTOP */
+html {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: "Syne", sans-serif; */
+}
+
+body {
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+#wrapper {
+  /* display: flex; */
+  /* justify-content: flex-start; */
+}
+
+.show {
+  opacity: 1;
+  transition: opacity 2s;
+}
+
+.hide {
+  opacity: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: 600;
+}
+
+#page {
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+#content {
+  width: 100%;
+  display: flex;
+  font-size: 15px;
+  line-height: auto;
+}
+
+#one_exp {
+  width: 65%;
+}
+
+
+#DTcontainerRight {
+  width: 35%;
+  padding-left: 8rem;
+  /* padding-top: 3rem; */
+}
+
+#two_skills {
+  display: block;
+}
+
+#two_skills div {
+  display: inline;
+}
+
+/* #two_skills div {
+  padding-top:400px;
+} */
+
+#two_skills div div div {
+  border-radius: 5px;
+  /* border: 1px solid #000; */
+  display: inline-block;
+  margin: .5rem .5rem 0rem 0rem;
+  padding: .3rem;
+}
+
+#langs div {
+  background-color: #e8e8e8;
+}
+
+#tools div {
+  /* background-color: #c6c6c6; */
+  background-color: #e8e8e8;
+
+}
+
+#platforms div {
+  background-color: #e8e8e8;
+}
+
+#two_skills, #three_clients, #four_edu, #five_work, #about {
+  padding-bottom: 2.25rem;
+}
+
+#spacer {
+  width: 8ch;
+}
+
+sub {
+  vertical-align: .20rem;
+}
+
+p {
+  line-height: 1.5;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#showMob {
+  display: none;
+}
+
+
+#headline {
+  /* text-align: center; */
+  padding: 0 0 6rem 0;
+}
+
+#headline h2 {
+  font-size: 2.5rem;
+  padding-top: 4rem;
+}
+
+#thx p {
+  line-height: 2;
+}
+
+#thx div div{
+  padding-bottom: .75rem;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+#svg_e {
+  position: relative;
+  top: -1px;
+}
+
+#svg_p {
+  position: relative;
+  top: -2px;
+}
+
+#svg_l {
+  position: relative;
+  top: -2px;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 6rem;
+  line-height: 90%;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0;
+  /* padding-top: 1rem; */
+  padding-bottom: 1rem;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  margin: 0px;
+  font-size: 1rem;
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+#sub {
+  font-size: .8rem;
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.5rem;
+}
+
+#two_skills>ul {
+  /* padding-top: 1rem; */
+}
+
+li {
+  padding-left: 1.3rem;
+}
+
+/* custom list char */
+li:before {
+  content: "–";
+  font-weight: 600;
+  display: inline-block;
+  margin-left: -1.3rem;
+  width: 1.3rem;
+}
+
+.sub_li {
+  padding-left: 2.7rem;
+}
+
+/* custom list char for links */
+.link_li:before {
+  content: "⇒";
+  font-weight: 300;
+  display: inline-block;
+  margin-left: -1.3rem;
+  width: 1.3rem;
+}
+
+/* TABLET */
+@media screen and (max-width: 900px) {
+  body {
+    width: 100%;
+  }
+
+  #content {
+    flex-direction: column;
+  }
+
+  #page {
+    padding: 2rem;
+  }
+
+  #two_skills {
+    padding-bottom: 1rem;
+  }
+
+  #one_exp,
+  #three_clients,
+  #four_edu,
+  #DTcontainerRight,
+  #three_clients_mob,
+  #four_edu_mob,
+  #five_work_mob {
+    width: 60%;
+  }
+
+  #two_skills {
+    order: 1;
+  }
+
+  #one_exp {
+    order: 2;
+  }
+
+  #three_clients {
+    display: none;
+  }
+
+  #four_edu {
+    display: none;
+  }
+
+  #three_clients_mob {
+    order: 3;
+  }
+
+  #four_edu_mob {
+    order: 4;
+  }
+
+  #five_work_mob {
+    order: 5;
+  }
+
+  #showMob {
+    display: block;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 479px) {
+
+  #one_exp,
+  #two_skills,
+  #three_clients,
+  #four_edu,
+  #DTcontainerRight,
+  #three_clients_mob,
+  #four_edu_mob,
+  #five_work_mob {
+    width: 100%;
+  }
+
+  #two_skills {
+    padding-bottom: 1rem;
+  }
+
+  #headline {
+    padding: 1rem 0 2rem 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}

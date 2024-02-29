@@ -1,8 +1,7 @@
-@charset "UTF-8";
 /* DESKTOP */
 html {
   background-color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -39,9 +38,9 @@ a:hover {
 #col2 {
   width: 35%;
   padding-left: 8rem;
-}
-#col2 div {
-  padding-bottom: 2.25rem;
+  div {
+    padding-bottom: 2.25rem;
+  }
 }
 
 p {
@@ -53,6 +52,7 @@ p {
 #headline {
   padding: 0 0 6rem 0;
 }
+
 
 h1 {
   margin: 0px;
@@ -82,7 +82,7 @@ h3 {
 }
 
 #sub {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-style: italic;
 }
 
@@ -90,70 +90,78 @@ ul {
   list-style: none;
   padding: 0;
   line-height: 1.5rem;
+  li {
+    padding-left: 1.3rem;
+  }
   /* custom list char */
-}
-ul li {
-  padding-left: 1.3rem;
-}
-ul li:before {
-  content: "–";
-  font-weight: 600;
-  display: inline-block;
-  margin-left: -1.3rem;
-  width: 1.3rem;
+  li:before {
+    content: "–";
+    font-weight: 600;
+    display: inline-block;
+    margin-left: -1.3rem;
+    width: 1.3rem;
+  }
 }
 
 #skills {
   display: block;
-}
-#skills div {
-  display: inline;
-}
-#skills div div div {
-  border-radius: 5px;
-  /* border: 1px solid #000; */
-  display: inline-block;
-  margin: 0.5rem 0.5rem 0rem 0rem;
-  padding: 0.3rem;
-  background-color: #e8e8e8;
+  div { 
+    display: inline; 
+    div div {
+      border-radius: 5px;
+      /* border: 1px solid #000; */
+      display: inline-block;
+      margin: .5rem .5rem 0rem 0rem;
+      padding: .3rem;
+      background-color: #e8e8e8; 
+    }
+  }
 }
 
-#connect p {
-  line-height: 2;
+#connect {
+  p {
+    line-height: 2;
+  }
+  div div{
+    padding-bottom: .75rem;
+  }
+  svg {
+    vertical-align: middle;
+  }
+  
+  #svg_e {
+    position: relative;
+    top: -1px;
+  }
+  
+  #svg_p {
+    position: relative;
+    top: -2px;
+  }
+  
+  #svg_l {
+    position: relative;
+    top: -2px;
+  }
+  #email { display: inline; }
 }
-#connect div div {
-  padding-bottom: 0.75rem;
-}
-#connect svg {
-  vertical-align: middle;
-}
-#connect #svg_e {
-  position: relative;
-  top: -1px;
-}
-#connect #svg_p {
-  position: relative;
-  top: -2px;
-}
-#connect #svg_l {
-  position: relative;
-  top: -2px;
-}
-#connect #email {
-  display: inline;
-}
+
 
 /* MOBILE */
 @media screen and (max-width: 479px) {
+
   #page {
     padding: 2rem;
   }
+  
   #content {
     flex-direction: column;
   }
+
   #col2 {
     padding-left: 0;
   }
+
   #col1,
   #col2,
   #clients,
@@ -163,10 +171,16 @@ ul li:before {
   #connect {
     width: 100%;
   }
+
+  // #skills { order: 0;}
+  // #col1 { order: 1;}
+
+
   #headline {
     padding: 1rem 0 2rem 0;
+    h1 {
+      font-size: 3rem;
+    }
   }
-  #headline h1 {
-    font-size: 3rem;
-  }
-}/*# sourceMappingURL=styles.css.map */
+
+}
