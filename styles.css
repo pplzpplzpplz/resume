@@ -63,7 +63,7 @@ p {
 
 h1 {
   margin: 0px;
-  font-size: 7vw;
+  font-size: 5rem;
   line-height: 90%;
   font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
@@ -156,6 +156,9 @@ ul li:before {
   #content {
     flex-direction: column;
   }
+  #col1 {
+    padding-bottom: 2.25rem;
+  }
   #col2 {
     padding-left: 0;
   }
@@ -169,12 +172,18 @@ ul li:before {
     width: 100%;
   }
   #headline {
-    padding: 1rem 0 2rem 0;
+    padding: 1rem 0 4rem 0;
+  }
+  #headline h1 {
+    font-size: 7vw;
   }
 }
 /* MOBILE */
 @media screen and (max-width: 750px) {
   #page {
     padding: 2rem;
+  }
+  #headline h1 {
+    font-size: 9vw;
   }
 }/*# sourceMappingURL=styles.css.map */
