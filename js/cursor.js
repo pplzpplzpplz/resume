@@ -10,11 +10,35 @@ let ppos = 0;
 let pppos = 0;
 let calebText = 'Caleb Wiseman Taylor Moore';
 
+function hideCanvas() {
+  let canvasElement = select('canvas');
+  canvasElement.style('display', 'none');
+}
+
+function showCanvas() {
+  let canvasElement = select('canvas');
+  canvasElement.style('display', 'block');
+}
+
+
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
-  frameRate(20);
+  frameRate(30);
   blendMode(SUBTRACT);
   noCursor();
+
+  let links = selectAll('a');
+
+  links.forEach(link => {
+    link.mouseOver(() => {
+      console.log('hover');
+      hideCanvas()
+    });
+    link.mouseOut(() => {
+      console.log('out');
+      showCanvas()
+    });
+  });
 
   // FONT
   // textFont(font);
@@ -30,13 +54,13 @@ function mouseWheel(e) {
 
 function cursorShape(x, y) {
   beginShape();
-  vertex(x + 0, y + 0); // Top point
-  vertex(x + 10, y + 10); // Right bottom
-  vertex(x + 6, y + 10); // Right top
-  vertex(x + 8, y + 17); // Bottom middle
-  vertex(x + 5, y + 18); // Bottom left
-  vertex(x + 4, y + 11); // Left middle
-  vertex(x + 0, y + 14); // Left top
+  vertex(x, y); // Top point
+  vertex(x + 17.5, y + 17.5); // Right bottom
+  vertex(x + 10.5, y + 17.5); // Right top
+  vertex(x + 14.5, y + 29.75); // Bottom middle
+  vertex(x + 8.75, y + 31.5); // Bottom left
+  vertex(x + 7, y + 19.25); // Left middle
+  vertex(x, y + 24.5); // Left top
   endShape(CLOSE);
 }
 
@@ -45,24 +69,41 @@ function draw() {
   background(255);
   noStroke();
 
+  let circleSize = 50 + movedX * 5;
+
+
+
+  // CURSOR VERSION ////////////////////////////
   // RED
+  // scale(1+abs(movedX));
   fill(255, 0, 0, 250);
-  // translate(convertToWebGLX(), convertToWebGLY(mouseY));
-  scale(5);
-  cursorShape(mouseX, mouseY);
+  cursorShape(convertToWebGLX(mouseX), convertToWebGLY(mouseY))
 
   // GREEN
+  fill(0, 255, 0, 250);
+  cursorShape(convertToWebGLX(pmouseX), convertToWebGLY(pmouseY))
+
+  // BLUE
+  fill(0, 0, 255, 250);
+  cursorShape(convertToWebGLX(ppmouseX), convertToWebGLY(ppmouseY))
+
+  
+  // CIRCLE VERSION ////////////////////////////
+  // RED
+  // fill(255, 0, 0, 250);
+  // circle(convertToWebGLX(mouseX), convertToWebGLY(mouseY), circleSize);
+
+  // // GREEN
   // fill(0, 255, 0, 250);
-  // translate(convertToWebGLX(pmouseX), convertToWebGLY(pmouseY));
-  // cursorShape();
+  // circle(convertToWebGLX(pmouseX), convertToWebGLY(pmouseY), circleSize);
 
   // // BLUE
   // fill(0, 0, 255, 250);
-  // translate(convertToWebGLX(ppmouseX), convertToWebGLY(ppmouseY));
-  // cursorShape();
+  // circle(convertToWebGLX(ppmouseX), convertToWebGLY(ppmouseY), circleSize);
 
   ppmouseX = pmouseX;
   ppmouseY = pmouseY;
+
 }
 
 // Functions to convert mouseX and mouseY coordinates to WebGL coordinates
