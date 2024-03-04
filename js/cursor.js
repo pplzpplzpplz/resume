@@ -31,11 +31,11 @@ function setup() {
 
   links.forEach(link => {
     link.mouseOver(() => {
-      console.log('hover');
+      // console.log('hover');
       hideCanvas()
     });
     link.mouseOut(() => {
-      console.log('out');
+      // console.log('out');
       showCanvas()
     });
   });
