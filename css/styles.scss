@@ -72,7 +72,7 @@ p {
 
 h1 {
   margin: 0px;
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 90%;
   font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
@@ -99,7 +99,11 @@ h3 {
 
 #sub {
   font-size: .8rem;
-  font-style: italic;
+  font-weight: 500;
+  span{
+  font-weight: 300;
+    font-style: italic;
+  }
 }
 
 ul {

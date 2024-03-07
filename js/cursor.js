@@ -23,7 +23,7 @@ function showCanvas() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
-  frameRate(30);
+  // frameRate(30);
   blendMode(SUBTRACT);
   noCursor();
 
