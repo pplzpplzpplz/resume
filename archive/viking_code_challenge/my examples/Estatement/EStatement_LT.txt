@@ -1,0 +1,108 @@
+LINK_NAME	EXTERNAL_TRACKING	LINK_CATEGORY	LINK_URL
+header_all_img		Home	https://www.alaskaair.com/
+header_logo_mp		Home	https://www.alaskaair.com/
+logo_home		Home	https://www.alaskaair.com/
+Logo_Home		Home	https://www.alaskaair.com/
+logo_home_c49	disable	Club49	https://www.club49hub.com/
+logo_home_en		Home	https://www.alaskaair.com/en/
+PreHeader_SignIn		MyAccount	https://www.alaskaair.com/www2/ssl/myalaskaair/MyAlaskaAir.aspx?CurrentForm=UCSignInStart
+preheader_signin		MyAccount	https://www.alaskaair.com/www2/ssl/myalaskaair/MyAlaskaAir.aspx?CurrentForm=UCSignInStart
+PreHeader_SignUp		MyAccount	https://www.alaskaair.com/account/join-mileage-plan
+preheader_signup		MyAccount	https://www.alaskaair.com/account/join-mileage-plan
+Pre_HeaderUpdate		MyAccount	http://www.alaskaair.com/www2/ssl/myalaskaair/MyAlaskaAir.aspx?CurrentForm=UCSignInStart
+header_account		MyAccount	https://www.alaskaair.com/www2/ssl/myalaskaair/MyAlaskaAir.aspx?CurrentForm=UCSignInStart
+header_book		Book	https://www.alaskaair.com/planbook?awards=yes
+header_redeem		AwardTravel	https://www.alaskaair.com/content/mileage-plan/use-miles
+header_earn		EarnMiles	https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles
+BottomLink_SignIn		MyAccount	https://www.alaskaair.com/www2/ssl/myalaskaair/MyAlaskaAir.aspx
+BottomLink_EasyBiz		EasyBiz	https://easybiz.alaskaair.com/signin
+BottomLink_Book		Book	https://www.alaskaair.com/planbook
+BottomLink_EZManage		ManageReservation	https://www.alaskaair.com/booking/reservation-lookup
+BottomLink_MileagePlan		MileagePlan	https://www.alaskaair.com/content/mileage-plan
+BottomLink_MyAccount		MyAccount	https://www.alaskaair.com/www2/ssl/myalaskaair/MyAlaskaAir.aspx?CurrentForm=UCSignInStart
+BottomLink_Contact		Contact	https://www.alaskaair.com/content/about-us/help-contact
+BottomLink_FlightDeals		Deals	https://www.alaskaair.com/content/deals/flights
+BottomLink_Explore		Info	http://www.alaskaair.com/content/about-us/site-info/explore-as.aspx
+BottomLink_TravelInfo		Info	http://www.alaskaair.com/content/travel-info
+BottomLink_Deals		Deals	http://www.alaskaair.com/content/deals/flights.aspx
+BottomNav_Club49		Club49	https://www.alaskaair.com/content/mileage-plan/club-49.aspx
+BottomNav_Club49Sale		Book	https://www.alaskaair.com/content/mileage-plan/club-49/deals.aspx?q=&d=${DESTINATION}
+BottomNav_FlightDeals		Deals	https://www.alaskaair.com/content/deals/flights.aspx
+footer_mp_text		MileagePlan	http://www.alaskaair.com/content/mileage-plan.aspx
+footer_book_text		Book	https://www.alaskaair.com/planbook?
+footer_sign_in		MyAccount	https://www.alaskaair.com/www2/ssl/myalaskaair/MyAlaskaAir.aspx
+footer_book_an_award		AwardTravel	https://www.alaskaair.com/content/mileage-plan/use-miles?lid=nav:mileage-use&int=AS_NAV_MP_UseMiles_-prodID:MileagePlan
+footer_earn_miles		EarnMiles	https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles?lid=nav:mileage-earn&int=AS_NAV_MP_EarnMiles_-prodID:MileagePlan
+footer_account_text		MyAccount	https://www.alaskaair.com/www2/ssl/myalaskaair/MyAlaskaAir.aspx?CurrentForm=UCSignInStart
+bottomlink_book		Book	http://www.alaskaair.com/planbook
+bottomlink_contact		Contact	https://www.alaskaair.com/content/about-us/help-contact
+bottomlink_deals		Deals	https://www.alaskaair.com/content/deals/flights.aspx
+bottomlink_explore		Info	https://www.alaskaair.com/content/about-us/site-info/explore-as.aspx
+bottomlink_myaccount		MyAccount	https://www.alaskaair.com/www2/ssl/myalaskaair/MyAlaskaAir.aspx?CurrentForm=UCSignInStart
+bottomlink_mileageplan		MileagePlan	http://www.alaskaair.com/content/mileage-plan.aspx
+footer_privacy_text		PrivacyPolicy	https://www.alaskaair.com/content/legal/privacy-policy?
+privacy_notice		PrivacyPolicy	https://www.alaskaair.com/content/legal/privacy-policy?
+Privacy_Policy		PrivacyPolicy	https://www.alaskaair.com/content/legal/privacy-policy?
+privacy_policy		PrivacyPolicy	https://www.alaskaair.com/content/legal/privacy-policy?
+footer_contact_text		Contact	https://www.alaskaair.com/content/about-us/help-contact
+footer_contact2_text		Contact	https://www.alaskaair.com/content/about-us/help-contact
+Contact_AS		Contact	https://www.alaskaair.com/content/about-us/help-contact
+contact_as		Contact	https://www.alaskaair.com/content/about-us/help-contact
+unsubscribe		Unsubscribe	https://www.alaskaair.com/betaaccount/manage-preferences/?ContactId=${CUSTOMER_ID_}
+Unsubscribe		Unsubscribe	https://www.alaskaair.com/betaaccount/manage-preferences/?ContactId=${CUSTOMER_ID_}
+Update_Subscriptions		EmailSettings	https://www.alaskaair.com/betaaccount/manage-preferences/?ContactId=${CUSTOMER_ID_}
+footer_update_preferences		EmailSettings	https://www.alaskaair.com/betaaccount/manage-preferences/?ContactId=${CUSTOMER_ID_}
+Update_Email_Settings		EmailSettings	https://www.alaskaair.com/betaaccount/manage-preferences/?ContactId=${CUSTOMER_ID_}
+social_twitter	disable	Twitter	https://twitter.com/alaskaair
+social_facebook	disable	Social_FB	http://www.facebook.com/alaskaairlines
+social_instagram	disable	Social_Instagram	https://www.instagram.com/alaskaair/
+social_pinterest	disable	Social_Pinterest	https://www.pinterest.com/AlaskaAirlines/
+Social_Twitter	disable	Twitter	https://twitter.com/alaskaair
+Social_Facebook	disable	Social_FB	http://www.facebook.com/alaskaairlines
+Social_Instagram	disable	Social_Instagram	https://www.instagram.com/alaskaair/
+Social_Pinterest	disable	Social_Pinterest	https://www.pinterest.com/AlaskaAirlines/
+Social_Facebook_c49	disable	Social_FB	https://www.facebook.com/AlaskaAirClub49
+footer_myaccount_text		MyAccount	https://www.alaskaair.com/www2/ssl/myalaskaair/MyAlaskaAir.aspx?CurrentForm=UCSignInStart
+footer_preferences_text		EmailSettings	https://www.alaskaair.com/betaaccount/manage-preferences/?ContactId=${CUSTOMER_ID_}
+footer_contactus_text		Contact	https://www.alaskaair.com/content/about-us/help-contact
+footer_twitter_img	disable	Twitter	https://twitter.com/alaskaair
+footer_facebook_img	disable	Social_FB	https://www.facebook.com/alaskaairlines
+footer_instagram_img	disable	Social_Instagram	https://www.instagram.com/alaskaair/
+footer_unsubscribe_text		Unsubscribe	https://www.alaskaair.com/betaaccount/manage-preferences/?ContactId=${CUSTOMER_ID_}
+footer_privacypolicy_text		PrivacyPolicy	https://www.alaskaair.com/content/legal/privacy-policy?
+footer_logo_img		Home	https://www.alaskaair.com/
+footer_facebookc49_img	disable	Social_FB	https://www.facebook.com/AlaskaAirClub49
+footer_travelagentsignin_text	disable	Travel Agent	https://updates.alaskaair.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQGi8mYTcCGrajDyX9NXzau1Azbt3A1LRj8JpN7zaR2RBnrLLubrAhuhVXtpKX%3DTCRABTRY&_ei_=Eq2tf9zs59idfPO1Sc_9BbkSqJZenqMtd839RVIat8vJ-jnZGVvuTtpx4nPx-_F-6e50dqAUyDBex7vHHsmKdJb1yVuyXvwZG6cq.&_di_=pum4cd4c827saa901o7of2nnbtsp28spmrenijh1t0v398ufop50
+footer_flightdeals_text		Deals	https://www.alaskaair.com/content/deals/flights
+footer_easybizsignin_text		Deals	https://easybiz.alaskaair.com/signin
+footer_managereservations_text		ManageReservation	https://www.alaskaair.com/booking/reservation-lookup
+preheader_nopoints_text		EarnMiles	https://alaskaair.com/content/mileage-plan/how-to-earn-miles
+preheader_else_text		Partner_Everyday	https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles/everyday-partners?
+webview			"${form(campaign.name,'CONTACTS_LIST.CUSTOMER_ID_','CONTACTS_LIST.COUNTRY_','CONTACTS_LIST.DATE_OF_BIRTH','CONTACTS_LIST.EMAIL_ADDRESS_','CONTACTS_LIST.FIRST_NAME','CONTACTS_LIST.MOBILE_NUMBER_','CONTACTS_LIST.RIID_','CONTACTS_LIST.STATE_','CONTACTS_LIST.LAST_NAME','ESTATEMENT.AAG_MILES','ESTATEMENT.AAG_MILES_TO_NEXT_TIER','ESTATEMENT.ALLIANCE_MILES','ESTATEMENT.ALLIANCE_MILES_TO_NEXT_TIER','ESTATEMENT.ALLIANCE_SEGMENTS','ESTATEMENT.ALLIANCE_SEGS_TO_NEXT_TIER','ESTATEMENT.NET_MILES','ESTATEMENT.NEXT_TIER','MEMBER_INFO.AVAILABLE_POINTS','MEMBER_INFO.BANK_CARD_DESIGNATOR','MEMBER_INFO.CURRENT_TIER','MEMBER_INFO.ENROLL_DATE','MEMBER_INFO.LOYALTY_STATUS','MEMBER_INFO.MEMBER_NUM','MEMBER_INFO.MINFO_MILLION_MILE','LAUNCH_DATE','deploy_date','utm_source','date_var','SBP.DUMMY','BAC.RECENT_PURCHASE_FLAG','MEMBER_INFO.TIER_START_DATE','SEGNUMBER','BAC_MEMBER_NUM_1')}"
+primary_nopoints_cta			https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles
+primary_seg1_cta			https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles/everyday-partners?
+primary_seg2_cta			https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles/everyday-partners?
+primary_seg3_cta			https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles/everyday-partners?
+secondary_a_40k_img	disable	CreditCardUS 	https://secure.bankofamerica.com/applynow/initialize-workflow.go?requesttype=C&campaignid=4044922&productoffercode=MH&genericvariables=861~Aug2020estatement
+secondary_a_40k_cta	disable	CreditCardUS 	https://secure.bankofamerica.com/applynow/initialize-workflow.go?requesttype=C&campaignid=4044922&productoffercode=MH&genericvariables=861~Aug2020estatement
+secondary_a_getmore_img		"CreditCardCAN	"	https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles/financial-partners
+secondary_a_getmore_cta		"CreditCardCAN	"	https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles/financial-partners
+secondary_a_boost_img		"CreditCardCAN	"	https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles/financial-partners
+secondary_a_boost_cta		"CreditCardCAN	"	https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles/financial-partners
+secondary_b_memberbonus_cta		Partner_Shopping	https://www.mileageplanshopping.com/p/extra-rewards.htm?source=cl|AKA|ALL|cl||em||MemApprecBns|eState|20200805&utm_source=cl&utm_medium=em&utm_campaign=MemApprecBns&utm_content=eState&chan=cl&seg=&med=em&strm=&cam=MemApprecBns&cont=eState&end=1
+secondary_b_memberbonus_img		Partner_Shopping	https://www.mileageplanshopping.com/p/extra-rewards.htm?source=cl|AKA|ALL|cl||em||MemApprecBns|eState|20200805&utm_source=cl&utm_medium=em&utm_campaign=MemApprecBns&utm_content=eState&chan=cl&seg=&med=em&strm=&cam=MemApprecBns&cont=eState&end=1
+secondary_c_4xmiles_cta	disable		https://www.getyourguide.com/discovery
+secondary_c_4xmiles_img	disable		https://www.getyourguide.com/discovery
+secondary_d_uncf_cta		GiftMiles	https://www.alaskaair.com/content/mileage-plan/use-miles/share-gift-miles/donate-miles#united-negro-college-fund
+secondary_e_nextlevelcare_cta		Info	https://www.alaskaair.com/content/advisories/coronavirus
+secondary_e_nextlevelcare_img		Info	https://www.alaskaair.com/content/advisories/coronavirus
+secondary_f_boost_cta		EarnMiles	https://www.alaskaair.com/content/deals/special-offers/status-boost?
+secondary_g_buymiles_teaser_text		BuyMiles	https://storefront.points.com/mileage-plan/en-US/buy?
+secondary_h_entertainment_text		IFE	https://www.alaskaair.com/content/travel-info/flight-experience/inflight-entertainment
+disc_nopoints_primary_text		Terms	https://www.alaskaair.com/content/mileage-plan/terms-and-conditions
+disc_a_40k_text	disable	CreditCardUS 	https://secure.bankofamerica.com/applynow/initialize-workflow.go?requesttype=C&campaignid=4044922&productoffercode=MH&genericvariables=861~Aug2020estatement
+disc_a_getmore_text		Home	https://www.alaskaair.com
+disc_a_getmore_text2		Baggage	https://www.alaskaair.com/freebagfaq
+disc_a_boost_text		Home	https://www.alaskaair.com
+disc_a_boost_text2		Terms	https://www.alaskaair.com/content/mileage-plan/how-to-earn-miles/financial-partners
+disc_secondary_b_text	disable		https://www.mileageplanshopping.com/p/member-appreciation-bonus-terms.htm 

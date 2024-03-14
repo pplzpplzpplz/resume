@@ -1,0 +1,14 @@
+
+
+Questions.
+
+1)	Please explain what you think these scripts (Oracles Responsys Personalization language [RPL] w/ html) do.
+
+	A)	Dear <#if FIRST_NAME?isnull>Valued Travel Advisor<#else>${FIRST_NAME} ${LAST_NAME}</#if>,</p>
+	B)	<#if CONTACTS_LIST.COUNTRY_=="CA"><#noescape><a href=tel:1-855-707-4837 target="_blank" style="color: #000001;font-weight: bold;" class="mbl-clicktocall">855&#8209;707&#8209;4837</a></#noescape><#else><#noescape><a href=tel:1-800-464-3595 target="_blank" style="color: #000001;font-weight: bold;" class="mbl-clicktocall">800&#8209;464&#8209;3595</a></#noescape></#if><br />contact your travel advisor</p>
+
+
+2)	If I have text that has a period in it, for example, ‘Viking.TV’, and I want to keep it as plain text, what is best way to prevent it from being converted into a hyperlink by certain devices after sending a test/proof to an inbox?
+
+3) You have an email in Outlook with a black 10px border going along the top but you have no image there. What is the best solution to fix the issue?
+

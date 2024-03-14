@@ -1,0 +1,19 @@
+We appreciate you taking the time to take this assessment test, which helps us gain some valuable insight into your development process and familiarity with the complexities of developing compliance emails across all clients.
+
+Kindly review and employ the attached assets as visual reference. There are seperate files for desktop and mobile layouts. We would like for you to please develop an email in plain HTML/CSS that matches the layouts and styling as defined in the "Layout_Desktop" and "Layout_Mobile" mock-up files, while functioning correctly for the following email clients on desktop and mobile and using a single code base:
+
+- Apple Mail
+- iOS Mail for iPhone SE and iPhone X
+- Gmail.com webmail
+- Gmail app on Android
+- Outlook.com webmail
+- Yahoo.com webmail
+- Outlook 2003 on Windows 8
+- Outlook 2016 on Windows 10
+- AOL app on iPhone 12
+
+Size of desktop email should be a maximum of 600 px.
+
+Pull copy from "070322_vrc_jul4_offer" file.
+
+Please submit your solution, packaged into a ZIP file when ready to be reviewed.
