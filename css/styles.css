@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* DESKTOP */
 html {
-  cursor: none;
   background-color: white;
   font-family: "Montserrat", sans-serif;
 }
@@ -162,9 +161,6 @@ ul li:before {
 }
 
 @media screen and (max-width: 1024px) {
-  html {
-    cursor: auto;
-  }
   #page {
     padding: 4rem;
   }
